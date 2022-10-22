@@ -1,10 +1,12 @@
 #body{
-  background-color: rgb(122, 255, 220);
+  background-color: rgb(29, 99, 81);
 }
 
 img
 {
   border-radius: 5%;
+  max-width: 90%;
+  border-style: groove;
   
 }
 .container-fluid
@@ -34,7 +36,7 @@ img
 }
 .book-info
 {
-  background-color: darkgray;
+  background-color: opaque;
 }
 
 
