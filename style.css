@@ -1,0 +1,41 @@
+#body{
+  background-color: lightsalmon;
+}
+
+img
+{
+  border-radius: 5%;
+  
+}
+.container-fluid
+{
+  text-align: center;
+  color: darkorchid;
+  font-size: 50px;
+  background-color: lightgray;
+  
+}
+#bookGenre
+{
+  text-align: center;
+}
+#submit
+{
+  text-align: center;
+  margin: auto;
+  position:relative;
+  display: flex;
+  
+}
+
+.container{
+  text-align: center;
+
+}
+.book-info
+{
+  background-color: darkgray;
+}
+
+
+
