@@ -1,20 +1,24 @@
 #body{
-  background-color: rgb(29, 99, 81);
+  background-image: url('book.png');
 }
 
 img
 {
   border-radius: 5%;
-  max-width: 90%;
-  border-style: groove;
-  
+  float: left;
+  width:  200px;
+  height: 200px;
+  object-fit: cover;
 }
+
 .container-fluid
 {
   text-align: center;
-  color: darkorchid;
+  color: whitesmoke;
+  outline-color:darkolivegreen;
+  outline-width: 5px;
   font-size: 50px;
-  background-color: lightgray;
+  
   
 }
 #bookGenre
@@ -31,13 +35,29 @@ img
 }
 
 .container{
-  text-align: center;
-
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 60%;
 }
 .book-info
 {
-  background-color: opaque;
+  font-size: 20px;
+  display: flex;
+  flex-direction:inherit;
+  /* max-width: 200px; */
+  color: white;
+  -webkit-text-stroke: 2px black;
+  gap: 1em;
 }
 
-
+.bookContainer
+{
+  max-width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  
+}
 

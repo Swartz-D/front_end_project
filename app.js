@@ -18,9 +18,13 @@ $('#submit').on('click', function(){
       newBook.classList.add('book-info');
       let currentImg = $(`<img src="https://covers.openlibrary.org/b/id/${data.works[i].cover_id}-L.jpg" class="img-fluid" />`);
       console.log(currentImg);
+      let bookContainer = document.createElement('div');
+      bookContainer.classList.add('bookContainer');
       newBook.innerHTML = 'Book title: '+ data.works[i].title+' | '+ 'Author(s): '+data.works[i].authors[0].name;
-      bookList.append(newBook);
-      bookList.append(currentImg[0]);      
+      // newBook.append(currentImg[0]);
+      bookContainer.append(newBook);
+      bookContainer.append(currentImg[0]);
+      bookList.append(bookContainer)
     
     }
     console.log(newDiv.children[0]);
